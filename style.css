@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  padding: 20px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+#card {
+  width: 65vw;
+  height: 50vh;
+  box-shadow: 0px 0px 8px -3px #000000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 42.5%;
+  padding: 30px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 57.5%;
+  color: #FFFFFF;
+}
+
+#bottom-left {
+  vertical-align: top;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+}
+
+#bottom-right {
+  background-color: hsla(179, 62%, 43%, 0.8);
+  vertical-align: top;
+  padding: 30px;
+
+}
+
+
+#bottom-left, #bottom-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+#top-section h2 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 30px;
+  maargin-top: 50px;
+}
+#top-section h4 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 15px;
+}
+#top-section p {
+  color: hsl(218, 22%, 67%);
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 2px 8px -3px #000000;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Karla';
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #B7D531;
+  transform: scale(1.025);
+}
+
+#bottom-left h4 {
+  margin-bottom: 25px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#price, #pm {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#pm {
+  position: relative;
+  top: -3.5px;
+  font-size: 0.8rem;
+  opacity: 0.75;
+  margin-left: 5px;
+}
+
+#bottom-left p {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 5px;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+#bottom-right h4{
+  margin-bottom: 25px;
+}
